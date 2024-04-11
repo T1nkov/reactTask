@@ -1,4 +1,4 @@
-function Task3() {
+function Task5() {
   let res = ["a", 2, "b", 12].map((el) => {
     if (!isNaN(el)) return el % 2 == 0 ? <p>{el} чет</p> : <p>{el} нечет</p>;
 
@@ -16,4 +16,4 @@ function Task3() {
   );
 }
 
-export default Task3;
+export default Task5;
