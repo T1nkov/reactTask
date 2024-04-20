@@ -4,7 +4,7 @@ function Task31() {
   const [color, setColor] = useState("black");
   const [flag, setFlag] = useState(false);
 
-  const colors = ["red", "green", "black", "blue"];
+  const colors = ["red", "green", "white", "blue"];
   const changeColor = () => {
     setColor(colors[Math.round(Math.random() * colors.length)]);
     setFlag(flag ? false : true);
