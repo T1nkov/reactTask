@@ -24,9 +24,15 @@ import Task32 from "./pages/Task32/task32";
 import Task33 from "./pages/Task33/task33";
 import Task34 from "./pages/Task34/task34";
 import Task35 from "./pages/Task35/task35";
+import Task36 from "./pages/Task36/task36";
+import Task37 from "./pages/Task37/task37";
+import Task38 from "./pages/Task38/task38";
+import Task39 from "./pages/Task39/task39";
+import Task40 from "./pages/Task40/task40";
+import Task41 from "./pages/Task41/task41";
+import Task42 from "./pages/Task42/task42";
 import Input1 from "./pages/Input1/input1";
 import Input2 from "./pages/Input2/input2";
-
 
 function App() {
   return (
@@ -56,6 +62,13 @@ function App() {
         <Route path="/task33" element={<Task33 />} />
         <Route path="/task34" element={<Task34 />} />
         <Route path="/task35" element={<Task35 />} />
+        <Route path="/task36" element={<Task36 />} />
+        <Route path="/task37" element={<Task37 />} />
+        <Route path="/task38" element={<Task38 />} />
+        <Route path="/task39" element={<Task39 />} />
+        <Route path="/task40" element={<Task40 />} />
+        <Route path="/task41" element={<Task41 />} />
+        <Route path="/task42" element={<Task42 />} />
         <Route path="/input1" element={<Input1 />} />
         <Route path="/input2" element={<Input2 />} />
       </Routes>
