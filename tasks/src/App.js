@@ -39,6 +39,13 @@ import Task47 from "./pages/Task47/task47";
 import Task48 from "./pages/Task48/task48";
 import Input1 from "./pages/Input1/input1";
 import Input2 from "./pages/Input2/input2";
+import Task70 from "./pages/Task70/task70";
+import Task71 from "./pages/Task71/task71";
+import Task72 from "./pages/Task72/task72";
+import Task74 from "./pages/Task74/task74";
+import Task78 from "./pages/Task78/task78";
+import Task79 from "./pages/Task79/task79";
+import Task80 from "./pages/Task80/task80";
 
 function App() {
   return (
@@ -83,6 +90,13 @@ function App() {
         <Route path="/task48" element={<Task48 />} />
         <Route path="/input1" element={<Input1 />} />
         <Route path="/input2" element={<Input2 />} />
+        <Route path="/task70" element={<Task70 />} />
+        <Route path="/task71" element={<Task71 />} />
+        <Route path="/task72" element={<Task72 />} />
+        <Route path="/task74" element={<Task74 />} />
+        <Route path="/task78" element={<Task78 />} />
+        <Route path="/task79" element={<Task79 />} />
+        <Route path="/task80" element={<Task80 />} />
       </Routes>
     </div>
   );
